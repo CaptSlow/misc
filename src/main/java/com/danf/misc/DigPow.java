@@ -1,3 +1,5 @@
+package com.danf.misc;
+
 public class DigPow {
 	
 	public static long digPow(int n, int p) {
