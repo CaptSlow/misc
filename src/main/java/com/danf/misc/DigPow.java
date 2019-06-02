@@ -1,15 +1,15 @@
 package com.danf.misc;
 
-public class DigPow {
+class DigPow {
 
   /**
-   * The whole 512 becomes tot = 5^p + 1^(p+1) + 2^(p+2) is divisible by 512, mularky
+   * The whole 512 becomes tot = 5^p + 1^(p+1) + 2^(p+2) is divisible by 512, business
    *
    * @param n int to be split into single digits and checked
-   * @param p power to start and incrememnt from
+   * @param p power to start and increment from
    * @return the result of tot/n
    */
-  public static long digPow(int n, int p) {
+  static long digPow(int n, int p) {
     long tot = 0;
     int[] arrN = arr(n);
     for (int i = 0; i < arrN.length; i++) {

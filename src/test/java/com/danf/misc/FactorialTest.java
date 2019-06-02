@@ -1,9 +1,10 @@
 package com.danf.misc;
 
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
-import org.junit.Before;
+
 import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 
 public class FactorialTest {
 
@@ -35,7 +36,7 @@ public class FactorialTest {
   }
 
   @Test(expected = IllegalArgumentException.class)
-  public void test_negative(){
+  public void test_negative() {
     assertEquals(120, fact.factorial(-5));
   }
 }
