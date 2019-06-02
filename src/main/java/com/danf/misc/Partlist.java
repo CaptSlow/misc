@@ -1,7 +1,8 @@
 package com.danf.misc;
 
-//import java.util.Arrays;
-
+/**
+ * Class to return different arrangements of a given string array
+ */
 class Partlist {
 
   static String[][] partlist(String[] arr) {

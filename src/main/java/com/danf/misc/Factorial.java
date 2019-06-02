@@ -1,5 +1,8 @@
 package com.danf.misc;
 
+/**
+ * Class to work out factorial of a number
+ */
 class Factorial {
 
   int factorial(int n) {

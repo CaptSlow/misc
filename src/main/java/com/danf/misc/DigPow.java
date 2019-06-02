@@ -1,5 +1,8 @@
 package com.danf.misc;
 
+/**
+ * Class to work out powers of numbers and others, see digPow method
+ */
 class DigPow {
 
   /**

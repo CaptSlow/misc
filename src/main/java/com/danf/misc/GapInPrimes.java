@@ -1,5 +1,9 @@
 package com.danf.misc;
 
+/**
+ * Class to find first pair of primes in a given series of numbers
+ * with a given gap between them
+ */
 class GapInPrimes {
 
   static long[] gap(int g, long m, long n) {
