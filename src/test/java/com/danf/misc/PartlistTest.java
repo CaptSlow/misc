@@ -43,9 +43,6 @@ public class PartlistTest {
   public void copyOfRangeTest() {
     String[] s1 = new String[]{"da", "nf", "or", "re", "st"};
     String[] mystr = Arrays.copyOfRange(s1, 0, s1.length - 1);
-    for (String s : mystr) {
-      System.out.println(s);
-    }
     Assert.assertEquals(4, mystr.length);
   }
 
