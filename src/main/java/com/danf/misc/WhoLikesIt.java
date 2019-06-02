@@ -2,14 +2,12 @@ package com.danf.misc;
 
 /**
  * Class to take list of names and display facebook-esque like statement, e.g.
- * {"Bob","Tom","Louise","Emily"} returns
- * Bob, Tom and 2 two others like this
- * todo create test class
+ * {"Bob","Tom","Louise","Emily"} returns Bob, Tom and 2 others like this
+ * class
  */
 class WhoLikesIt {
 
-
-  public static String whoLikesIt(String... names) {
+  static String whoLikesIt(String... names) {
     int numVars = names.length;
 
     switch (numVars) {
